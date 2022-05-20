@@ -10,6 +10,15 @@ function MyButton() {
   );
 }
 
+function AboutPage() {
+  return (
+    <>
+      <h1>About</h1>
+      <p>Olá.<br />Como é que estás?</p>
+    </>
+  );
+}
+
 function App() {
   return (
     <div>
@@ -19,6 +28,8 @@ function App() {
     <MyButton/>
     <MyButton/>
     <MyButton/>
+
+    <AboutPage/>
     </div>
   );
 }
