@@ -13,8 +13,8 @@ function MyButton() {
 function AboutPage() {
   return (
     <>
-      <h1>About</h1>
-      <p>Olá.<br />Como é que estás?</p>
+      <h1>Sobre</h1>
+      <p>Olá.<br/>Como é que estás?</p>
     </>
   );
 }
